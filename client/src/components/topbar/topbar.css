@@ -114,7 +114,31 @@
     }
 }
 
-@media screen and (min-width:480px) and (max-width:1024px) {
+
+@media screen and (min-width:480px) and (max-width:690px) {
+    .topListItem{
+        margin-right: 10px;
+        font-size: 13px !important;
+    }
+
+    .topIcon{
+        font-size: 14px;
+        margin-right: 5px;
+     }
+
+     .topImg{
+        width: 27px;
+        height: 27px;
+    }
+    
+
+}
+
+@media screen and (min-width:690px) and (max-width:820px) {
+    .topListItem{
+        margin-right: 10px;
+        font-size: 16px !important;
+    }
     .topbarUsername{
         width: 60px;
         overflow: hidden;

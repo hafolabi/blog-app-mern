@@ -1,6 +1,6 @@
 .post{
     margin: 15px 25px 40px 25px;
-    width: 385px;
+    width: 43%;
 }
 
 .postImg{
@@ -58,9 +58,16 @@
     -webkit-box-orient: vertical;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:900px) {
     .post{
         margin: 20px 0px 20px 0px;
-        width: 385px;
+        width: 100%;
     }
 }
+
+@media screen and (min-width:901px) and (max-width:1062px) {
+    .post{
+        width: 38%;
+    }
+}
+
