@@ -22,7 +22,7 @@ export default function Write() {
   const handleCat = (e) => {
     setCategories(e.target.value.split(","));
   };
-  
+  //testing my git on my new pc
   const handleSubmit = async (e) => {
     setProgress(true)
     e.preventDefault();
